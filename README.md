@@ -6,7 +6,15 @@ The modern financial market is increasingly shaped by the flow of online informa
 
 Tesla, Inc. (ticker: TSLA) offers a compelling case for such analysis. As one of the most publicly discussed and traded companies, Tesla’s stock has historically been influenced not only by earnings and fundamentals but also by the behavior of its online fanbase. Between July 2021 and July 2022, a period marked by major corporate announcements, product updates, and broad market volatility, Tesla’s price movement reflected the complex interplay between optimism, speculation, and fear.
 
-### 2. Research Motivation
+### 2. Research Motivation and objective
+#### 2.1 Motivation
+The motivation behind this project stems from the growing influence of social media on modern financial markets. Platforms like Reddit and Twitter have transformed how investors exchange information, form opinions, and coordinate trading behavior. These digital interactions often generate collective emotions such as optimism, fear, or hype that can move asset prices independently of fundamentals.
+
+Drawing inspiration from concepts studied in the Macroeconomic Foundations for Asset Pricing course, particularly the Poisson–Normal Mixture models used to capture rare-event risk, this project seeks to explore how such emotional dynamics translate into measurable financial risk.
+
+Therefore, our project focus on Tesla (TSLA), a stock that uniquely blends strong fundamentals with a passionate online investor community.
+
+#### 2.2 Objective
 The project’s central question is:
 Does investor sentiment, as expressed on Reddit, influence Tesla’s market risk and crash probability?
 
@@ -140,22 +148,18 @@ This project produced several meaningful findings:
 5. Economic relevance: Despite its simplicity, the welfare analysis quantifies the tangible impact of sentiment — optimism may feel good but does not eliminate systemic risk.
 
 ### 8. Conclusion
-This exploratory project demonstrates how social media sentiment and market risk interact dynamically in one of the world’s most volatile and publicly followed stocks.
+This project looked at how people's feelings about Tesla on social media (like Reddit) are connected to its stock market risk.
 
-Between mid-2021 and mid-2022, Tesla’s investor mood on Reddit fluctuated sharply — often preceding changes in market volatility. The analysis revealed that negative sentiment clusters with downside risk, and that higher optimism tends to coincide with calmer, less volatile periods.
+We found that when investors online became more negative or fearful, it often happened right before the stock became more volatile and risky. On the other hand, when people were feeling optimistic, the stock market was usually calmer.
 
-By blending classical finance (downside semivariance, crash risk) with behavioral data (sentiment indices), the study offers a modern perspective on how digital emotions shape real-world asset pricing.
+By using Poisson mixture model with data about online moods, this project shows that the emotions people express online can actually influence real-world stock prices.
 
-Quantitatively, the Poisson–Normal Mixture model provided a structured way to interpret these effects. While not perfect, it successfully linked sentiment with “disaster intensity” and investor welfare, demonstrating that even noisy social data can inform financial risk assessment.
+In short, the stock market isn't just about numbers. It's also a social system where people's feelings and the way they share information play a huge role in determining a stock's value and risk.
 
-Ultimately, the results support the view that markets are social systems: investor psychology and communication play as large a role as fundamentals.
+### Reference
+Yahoo Finance API — yfinance Python Library, https://pypi.org/project/yfinance/.
 
-As digital platforms continue to dominate information flow, incorporating sentiment analytics into financial modeling will be essential for both risk management and behavioral insight.
-
-
-
-
-
+Kaggle Dataset: One Year of TSLA on Reddit, https://www.kaggle.com/datasets/pavellexyr/one-year-of-tsla-on-reddit.
 
 
 
