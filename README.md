@@ -148,7 +148,7 @@ This project produced several meaningful findings:
 5. Economic relevance: Despite its simplicity, the welfare analysis quantifies the tangible impact of sentiment — optimism may feel good but does not eliminate systemic risk.
 
 ### 8. Conclusion
-This project looked at how people's feelings about Tesla on social media (like Reddit) are connected to its stock market risk.
+This project looked at how people's feelings about Tesla on social media like Reddit are connected to its stock market risk.
 
 We found that when investors online became more negative or fearful, it often happened right before the stock became more volatile and risky. On the other hand, when people were feeling optimistic, the stock market was usually calmer.
 
